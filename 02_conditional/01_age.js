@@ -1,4 +1,6 @@
-var age = 21;
+const prompt = require('prompt-sync')();
+
+var age = prompt("Enter your age: ");
 
 if(age>=60){
     console.log("You are a lady!");
