@@ -1,9 +1,11 @@
-var grade1 = 6;
-var grade2 = 6;
-var grade3 = 6;
-var grade4 = 6;
+const prompt = require('prompt-sync')();
 
-var sum = grade1+grade2+grade3+grade4;
+var grade1 = prompt("Enter the first grade:");
+var grade2 = prompt("Enter the second grade:");
+var grade3 = prompt("Enter the third grade:");
+var grade4 = prompt("Enter the fourth grade:");
+
+var sum = parseInt(grade1) + parseInt(grade2) + parseInt(grade3) + parseInt(grade4);
 var average = sum / 4;
 
 console.log("The arithmetic average is: ", average);
